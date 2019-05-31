@@ -1,4 +1,4 @@
-const mogoose = require("../database/index");
+const mogoose = require("../../database");
 
 const bcrypt = require('bcryptjs');
 
