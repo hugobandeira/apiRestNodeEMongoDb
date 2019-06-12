@@ -10,7 +10,6 @@ module.exports = (req, res, next) => {
       error: 'No Token provided'
     });
 
-
   const parts = authHeader.split(' ');
 
   if (!parts.length === 2)
