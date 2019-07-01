@@ -13,6 +13,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.3",
@@ -24,7 +25,8 @@
     "nodemailer": "^6.2.1",
     "nodemailer-express-handlebars": "^3.0.0",
     "nodemon": "^1.19.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "socket.io": "^2.2.0"
   },
   "eslintConfig": {
     "extends": "airbnb-base",
